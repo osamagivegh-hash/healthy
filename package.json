@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "preview": "serve -s build",
-    "vercel-build": "npm run build",
+    "vercel-build": "node build.js",
     "deploy-check": "node deploy-check.js"
   },
   "eslintConfig": {
