@@ -88,7 +88,7 @@ const TestimonialsSection = () => {
     
     const interval = setInterval(nextTestimonial, 5000);
     return () => clearInterval(interval);
-  }, [isAutoPlaying]);
+  }, [isAutoPlaying, nextTestimonial]);
 
   const currentTestimonial = testimonials[currentIndex];
 

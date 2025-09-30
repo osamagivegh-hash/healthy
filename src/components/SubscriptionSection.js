@@ -6,10 +6,8 @@ import {
   ArrowRight, 
   Mail, 
   Shield, 
-  Zap,
   Crown,
   Gift,
-  Smartphone,
   Apple,
   Play
 } from 'lucide-react';
@@ -17,7 +15,7 @@ import {
 const SubscriptionSection = () => {
   const [email, setEmail] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [selectedPlan, setSelectedPlan] = useState('premium');
+  // const [selectedPlan, setSelectedPlan] = useState('premium');
 
   const pricingPlans = [
     {
