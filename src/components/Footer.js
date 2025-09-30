@@ -207,13 +207,13 @@ const Footer = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="flex items-center space-x-6 text-sm text-gray-400"
             >
-              <a href="#" className="hover:text-white transition-colors duration-300">
+              <a href="/privacy" className="hover:text-white transition-colors duration-300">
                 Privacy Policy
               </a>
-              <a href="#" className="hover:text-white transition-colors duration-300">
+              <a href="/terms" className="hover:text-white transition-colors duration-300">
                 Terms of Service
               </a>
-              <a href="#" className="hover:text-white transition-colors duration-300">
+              <a href="/cookies" className="hover:text-white transition-colors duration-300">
                 Cookie Policy
               </a>
             </motion.div>
